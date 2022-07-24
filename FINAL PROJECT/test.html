@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #8ecdff, #9c27b0);
+        }
+
+        .input-class {
+            border-right: 0px;
+            border-left: 0px;
+            border-top: 0px;
+            width: 100%;
+            padding: 12px 0px 12px 5px;
+            margin: 8px 0;
+            border-radius: 4px;
+
+        }
+
+        div {
+            padding: 70px 0;
+            width: 40%;
+            margin: auto;
+            margin-top: 200px;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+
+        }
+
+        .form {
+            background-color: white;
+        }
+
+        .submit-btn {
+            background-image: linear-gradient(to right, #8ecdff, #9c27b0);
+            border-radius: 50px;
+            margin-top: 20px;
+            border-color: #9b27b000;
+            width: 240px;
+
+        }
+
+        .submit-btn:hover {
+            /* background-image: linear-gradient(to right, #0e4470, #b8b0b9); */
+            cursor: pointer;
+
+        }
+
+        .out_class {
+            background-image: linear-gradient(to right, #8ecdff, #9c27b0);
+            border-radius: 50px;
+            border-color: #9b27b000;
+            width: 100px;
+        }
+
+        
+    </style>
+    <script>
+         var Admin_Emails = new Array("Jhon123@gmail.com", "Morgan234@gmail.com", "Alex345@gmail.com")
+
+    
+        function relocate() {
+            var Email = document.getElementById("email").value;
+            console.log('Emaail' , Email);
+            if (Email == Admin_Emails[0]) 
+            {  window.location.href = "Admin.html"
+            }
+            else if (Email == Admin_Emails[1]) 
+            { window.location.href = "Admin.html"
+            }
+            else if (Email == Admin_Emails[2])
+            { window.location.href = "Admin.html"
+            }
+            else
+            { window.location.href = "pop 107.html"
+            }
+        }
+    </script>
+</head>
+
+<body>
+    
+    <div>
+        <form>
+            <label for="email">Email:</label>
+            <input class="input-class" type="text" id="email" name="Email" placeholder="Your email..">
+            <label for="password">Password:</label>
+            <input class="input-class" type="password" id="password" name="Password" placeholder="Your password..">
+            <p style="text-align: center;">
+                <button type="button" class="submit-btn" onclick="relocate()"> Login</button>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

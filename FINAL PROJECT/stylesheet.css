@@ -1,0 +1,134 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family:  sans-serif
+}
+
+
+.main
+{
+height: 110%;
+width: 100%;
+background-image: linear-gradient(to left,#9c27b0,#8ecdff );
+background-position: center;
+position: absolute;
+background-size: cover;
+}
+.form-box
+{
+  width: 380px;
+  height: 520px;
+  position: relative;
+  border-radius: 30px;
+  margin-top: 150px;
+  margin-left: 530px;
+  margin-bottom: 110px;
+  margin-right: 330px;
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+.header
+{
+  text-align: center;
+  
+  margin-top: 25px;
+  font-size: smaller;
+  font-weight: lighter;
+}
+.input
+{
+  top: 100px;
+  position: absolute;
+  width: 300px;
+}
+.firstname
+{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1;
+  margin-left: 10px;
+outline: none;
+background: transparent;
+}
+.secondname
+{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1;
+  margin-left: 10px;
+outline: none;
+background: transparent;
+}
+.Email
+{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1;
+  margin-left: 10px;
+outline: none;
+background: transparent;
+}
+.number
+{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1;
+  margin-left: 10px;
+outline: none;
+background: transparent;
+}
+.password
+{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1;
+  margin-left: 10px;
+  outline: none;
+background: transparent;
+}
+.check
+{
+  margin: 30px 10px 30px 0;
+}
+span
+{
+color: black;
+bottom: 68px;
+font-size: 14px;
+position: left;
+font-weight: lighter;
+}
+.submit
+{
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin-left: 58px;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  background-image: linear-gradient(to left,#9c27b0,#8ecdff);
+}

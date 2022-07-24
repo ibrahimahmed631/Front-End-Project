@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title> IOS Store </title>
+  <link rel="stylesheet" type = "text/css" href="stylesheet.css">
+  <script type="text/javascript"> 
+    function validateForm() {
+    var valid = true;
+   if(document.input.email.value==""){
+    alert("Email is empty");
+    document.input.email.focus();
+    valid=false; }
+    else{
+    if(document.input.email.value.indexOf("@")==-1||document.input.email.value.indexOf(".")==-1){
+    alert("Please Enter valid email, e.g:Team BNF@yahoo.com");
+    document.input.email.focus();
+    valid=false; }
+    }
+    return valid;
+    } </script> </head>
+    
+</head>
+<body> 
+<div class="main">
+  <div class="form-box">
+    <div class="header">
+    <h1> Sign Up </h1> <br> 
+      
+<form class="input" name="input" onSubmit="return validateForm()">
+  <input type="text"  class="firstname" placeholder="First Name" required><br><br>
+  <input type="text" class="secondname" placeholder="Last Name" required><br><br>
+  <input type="text" name="email" class="Email" placeholder="Email Address"required ><br><br>
+  <input type="number" class="number" placeholder="Phone Number"required ><br><br>
+  <input type="password" class="password" placeholder="Password" required>
+  <input type="checkbox" class="check" required> <span> I agree to all the terms & conditions </span>
+  <button type="submit" class="submit"><a href="test.html"> Sign Up </a></button>
+  
+</form>
+  </div>
+</div>
+</body>
